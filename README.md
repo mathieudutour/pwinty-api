@@ -1,11 +1,11 @@
-# pwinty-api
+# pwinty
 
 _A modern Node.js wrapper for the [Pwinty](http://pwinty.com) [API](https://pwinty.com/api/). Typescript definitions included._
 
 ## Installation
 
 ```bash
-npm install pwinty-api
+npm install @mathieudutour/pwinty
 ```
 
 ## Usage
@@ -13,7 +13,7 @@ npm install pwinty-api
 Sign up to Pwinty and note the MerchantID and API key you received when signing up.
 
 ```js
-import Pwinty, { ShippingMethod } from 'pwinty-api'
+import Pwinty, { ShippingMethod } from '@mathieudutour/pwinty'
 
 const pwinty = new Pwinty({
   merchantId: String, // defaults to process.env.PWINTY_MERCHANT_ID

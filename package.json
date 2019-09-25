@@ -1,5 +1,5 @@
 {
-  "name": "pwinty-api",
+  "name": "@mathieudutour/pwinty",
   "version": "0.1.0",
   "description": "A Node.JS wrapper for the Pwinty API",
   "main": "dist/index.js",
