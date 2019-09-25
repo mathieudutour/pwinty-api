@@ -1,0 +1,39 @@
+{
+  "name": "pwinty-api",
+  "version": "0.1.0",
+  "description": "A Node.JS wrapper for the Pwinty API",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "(rm -rf ./dist || true) && tsc",
+    "prepare": "npm run build"
+  },
+  "keywords": [
+    "pwinty",
+    "api",
+    "typescript",
+    "promise"
+  ],
+  "author": "Mathieu Dutour",
+  "license": "MIT",
+  "dependencies": {
+    "fetch-ponyfill": "^6.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^12.7.7",
+    "eslint": "^6.4.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-config-prettier": "^6.3.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-prettier": "^3.1.1",
+    "prettier": "^1.18.2",
+    "typescript": "^3.6.3"
+  },
+  "prettier": {
+    "proseWrap": "never",
+    "singleQuote": true,
+    "trailingComma": "es5",
+    "semi": false
+  }
+}
