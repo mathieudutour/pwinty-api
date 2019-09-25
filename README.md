@@ -1,6 +1,6 @@
 # pwinty-api
 
-_A modern Node.js wrapper for the [Pwinty](http://pwinty.com) [API](https://pwinty.com/api/). Typescript definitions included_
+_A modern Node.js wrapper for the [Pwinty](http://pwinty.com) [API](https://pwinty.com/api/). Typescript definitions included._
 
 ## Installation
 
@@ -40,7 +40,7 @@ pwinty.orders
   })
 ```
 
-See the [typescript definitions](./src/index.ts) for an overview of the methods available.
+See the [typescript definitions](https://github.com/mathieudutour/pwinty-api/blob/master/src/index.ts#L300-L326) for an overview of the methods available.
 
 ## License
 
